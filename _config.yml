@@ -16,17 +16,16 @@ minimal_mistakes_skin: "plum" #"plum", "default" "air", "aqua", "contrast", "dar
 
 # Site Settings
 locale: "ko-KR" #"en-US"
-title: "choiiis Devlog"
+title: "JIWEON Devlog"
 title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
-name: "choiiis"
-description: "choiiis DevLog"
-url: "https://choiiis.github.io"
+name: "JIWEON"
+description: "JIWEON DevLog"
+url: "https://jiweon-jeong.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "choiiis/choiiis.github.io"
+repository: "JIWEON-JEONG/JIWEON-JEONG.github.io"
 teaser: #
-# logo                     : "/assets/images/meee.svg"
-#"/assets/images/monster.png"
+# logo                     : "/assets/images/me.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
@@ -42,7 +41,7 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
   utterances:
-    theme: "github-light" # "github-dark"
+    theme: "github-dark" # "github-light"
     issue_term: "pathname"
   staticman:
     branch: # "master"
