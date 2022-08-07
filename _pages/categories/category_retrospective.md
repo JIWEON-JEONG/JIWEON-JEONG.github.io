@@ -1,6 +1,6 @@
 ---
-title: "Deep_Learning_Models"
-permalink: /categories/Models
+title: "Retrospective-2022"
+permalink: /categories/retrospective/2022
 layout: category
 author_profile: true
 toc: true

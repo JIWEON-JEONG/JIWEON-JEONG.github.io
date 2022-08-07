@@ -1,11 +1,11 @@
 ---
-title: "Python"
-permalink: /categories/Python/
+title: "DB"
+permalink: /categories/db
 layout: category
 author_profile: true
 toc: true
 sidebar_main: true
-taxonomy: Python
+taxonomy: db
 ---
 
 {% assign posts = site.categories.Cpp %}

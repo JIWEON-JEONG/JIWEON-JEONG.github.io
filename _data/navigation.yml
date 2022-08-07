@@ -15,23 +15,18 @@ main:
     url: /Aboutme/
   - title: "Posts"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Email"
-    url: /Aboutme/email
-
 
 side:
-  - title: Machine Learning
+  - title: 회고(Retrospective)
     children:
-      - title: "Deep Learning"
-        url: /categories/Deep_Learning_Study
-      - title: "Model"
-        url: /categories/Models
+      - title: "short diary"
+        url: /categories/retrospective/logs
+      - title: "2022"
+        url: /categories/retrospective/2022
  
-  - title: Language
+  - title: Tech (기술)
     children:
-      - title: "Python"
-        url: /categories/Python
-      - title: "C"
-        url: /categories/C
+      - title: "Java"
+        url: /categories/java
+      - title: "DB"
+        url: /categories/db
