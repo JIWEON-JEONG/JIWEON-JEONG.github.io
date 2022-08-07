@@ -102,17 +102,17 @@ analytics:
 # Site Author
 author:
   name             : "정 지 원"
-  avatar           : "/assets/blogdoor.jpg"
-  bio              : "KWU student, department of **Robotics**, dreaming of **Strong AI** "
+  avatar           : "/assets/images/me.png"
+  bio              : "명확한 이유가 있는 코드를 작성하는 개발자"
   location         : "Seoul, Republic of Korea"
-  email            : "drivegod5@naver.com"
+  email            : "whdwldnjs123@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       #url: "mailto:drivegod5@naver.com"
-    - label: "Naver_Blog"
+    - label: "Velog"
       icon: "fas fa-fw fa-link"
-      url: "https://blog.naver.com/drivegod5"
+      url: "https://velog.io/@john7645"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -121,10 +121,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yuchulnote"
+      url: "https://github.com/JIWEON-JEONG"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/yuchul2_0_0/"
+      url: "https://www.instagram.com/rkyjiweon/"
       
   
   
@@ -139,7 +139,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yuchulnote"
+      url: "https://github.com/JIWEON-JEONG"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -148,7 +148,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/yuchul2_0_0/"
+      url: "https://www.instagram.com/rkyjiweon/"
       
       
 # Reading Files
