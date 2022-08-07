@@ -1,0 +1,37 @@
+# main links
+#- title: "Quick-Start Guide"
+  #url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+# - title: "About"
+#   url: https://mmistakes.github.io/minimal-mistakes/about/
+# - title: "Sample Posts"
+#   url: /year-archive/
+# - title: "Sample Collections"
+#   url: /collection-archive/
+# - title: "Sitemap"
+#   url: /sitemap/
+
+main:
+  - title: "About Me"
+    url: /Aboutme/
+  - title: "Posts"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Email"
+    url: /Aboutme/email
+
+
+side:
+  - title: Machine Learning
+    children:
+      - title: "Deep Learning"
+        url: /categories/Deep_Learning_Study
+      - title: "Model"
+        url: /categories/Models
+ 
+  - title: Language
+    children:
+      - title: "Python"
+        url: /categories/Python
+      - title: "C"
+        url: /categories/C
