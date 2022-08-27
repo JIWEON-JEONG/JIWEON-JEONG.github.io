@@ -1,5 +1,5 @@
 ---
-title: "short_diary"
+title: "logs"
 permalink: /categories/retrospective/logs
 layout: category
 author_profile: true
