@@ -1,6 +1,6 @@
 ---
-title: "Effective Java"
-permalink: /categories/java/effective-java
+title: "Effective-Java"
+permalink: /categories/effective-java
 layout: category
 author_profile: true
 toc: true

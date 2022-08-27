@@ -1,6 +1,6 @@
 ---
-title: "logs"
-permalink: /categories/retrospective/logs
+title: "짧은기록"
+permalink: /categories/logs
 layout: category
 author_profile: true
 toc: true

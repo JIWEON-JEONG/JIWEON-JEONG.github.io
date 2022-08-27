@@ -1,6 +1,6 @@
 ---
-title: "Retrospective-2022"
-permalink: /categories/retrospective_2022
+title: "2022회고"
+permalink: /categories/retrospective-2022
 layout: category
 author_profile: true
 toc: true

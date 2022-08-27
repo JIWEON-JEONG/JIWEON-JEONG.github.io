@@ -20,9 +20,9 @@ side:
   - title: 회고(Retrospective)
     children:
       - title: "short diary"
-        url: /categories/retrospective/logs
+        url: /categories/logs
       - title: "2022"
-        url: /categories/retrospective/2022
+        url: /categories/retrospective_2022
  
   - title: Tech (기술)
     children:
