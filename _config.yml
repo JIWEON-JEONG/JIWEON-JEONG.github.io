@@ -135,7 +135,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/JIWEON-JEONG"
+       url: https://github.com/JIWEON-JEONG
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -144,7 +144,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-       url: "https://www.instagram.com/rkyjiweon/"
+       url: https://www.instagram.com/rkyjiweon/
 
 # Reading Files
 include:
