@@ -20,20 +20,20 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "category_retrospective" %}
-                        <li><a href="/categories/retrospective/2022" class=""> Retrospective-2022 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Retrospective/2022" class=""> Retrospective-2022 ({{category[1].size}})</a></li>
                     {% endif %}
 
                     {% if category[0] == "short_diary" %}
-                        <li><a href="/categories/retrospective/logs" class=""> Short Diary ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Retrospective/logs" class=""> Short Diary ({{category[1].size}})</a></li>
                     {% endif %}
 
                 {% endfor %}
             </ul>
             
-        <span class="nav__sub-title">Language</span>
+        <span class="nav__sub-title">Java</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Python" %}
+                    {% if category[0] == "" %}
                         <li><a href="/categories/Python" class=""> Python ({{category[1].size}})</a></li>
                     {% endif %}
 
