@@ -1,32 +1,28 @@
 # main links
-#- title: "Quick-Start Guide"
-  #url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-# - title: "About"
-#   url: https://mmistakes.github.io/minimal-mistakes/about/
-# - title: "Sample Posts"
-#   url: /year-archive/
-# - title: "Sample Collections"
-#   url: /collection-archive/
-# - title: "Sitemap"
-#   url: /sitemap/
-
 main:
-  - title: "About Me"
-    url: /Aboutme/
-  - title: "Posts"
-    url: /categories/
+  - title: "Home"
+    url: https://koownij.github.io/
 
-side:
-  - title: 회고(Retrospective)
-    children:
-      - title: "short diary"
-        url: /categories/logs
-      - title: "2022"
-        url: /categories/retrospective_2022
- 
-  - title: Tech (기술)
-    children:
-      - title: "Java"
-        url: /categories/java
-      - title: "DB"
-        url: /categories/db
+  - title: "About"
+    url: /about/
+
+  - title: "GitHub"
+    url: https://github.com/koownij
+
+  # - title: "Projects"
+  #   url: /projects/
+
+  # - title: "Categories"
+  #   url: /categories/
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
+categories:
+  - title: "Android"
+    url: /categories/android/
+  - title: "Kotlin"
+    url: /categories/kotlin/
+  - title: "Plan"
+    url: /categories/plan/
+  - title: "회고"
+    url: /categories/회고/

@@ -1,36 +1,30 @@
 ---
-title: "About Me"
-permalink: /Aboutme/
+title: 안녕하세요! Android 개발자 이진욱입니다!
+permalink: /about/
 layout: single
-toc: true
-sidebar_main: true
+comments: false
 ---
 
-## Welcome to my page, I'm Jung YuChul 🥳
-
-I am so glad to see you here, cause you are interested in me! 😁
-
-I am dreaming the world of **Strong Ai**, everyone has a Android Robot which can think and speak just like human being. 🤖
-
-**So, i am interested in ...**
-
-🎙 **Audio Deep Learning**
-
-💭 **Human Robot Interaction & Communication**
-
-...etc
-
-I have a goal to make a AI assistance like Jarvis in Iron Man before i graduate.
-
-I don't know if i can make it, but **i won't stop.**
-
-## 🐯 About Me
-
-* B. S. Student, Department of Robotics, Kwangwoon University. (2022.3~)
-    * Major in Intelligent System
-
-* Club : BARAM (Robotics Academic Group). (2022.3~)
+<div>
+    <img src="/assets/images/profile.png" alt="about_meee" width="70%" min-width="700px" itemprop="image">
+</div>
 
 
-{% assign posts = site.categories.Cpp %}
-{% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
+<div style="border-left: 2px solid rgba(199, 198, 198, 0.7); margin: 0.5em 0 0 0.5em; padding-left: 1.5em; font-weight: 500;">
+    <ul class="author__urls social-icons">
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">  Suwon, Korea</span>
+        </li>
+        <li>
+          <a href="https://github.com/koownij" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">  https://github.com/koownij</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:koownij@kakao.com">
+            <meta itemprop="email" content="koownij@kakao.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">  koownij@kakao.com</span>
+          </a>
+        </li>
+    </ul>
+  </div>
