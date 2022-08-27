@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "Home"
-    url: https://koownij.github.io/
+    url: https://jiweon-jeong.github.io/
 
   - title: "About"
     url: /about/
 
   - title: "GitHub"
-    url: https://github.com/koownij
+    url: https://github.com/JIWEON-JEONG
 
   # - title: "Projects"
   #   url: /projects/
@@ -18,11 +18,11 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "Android"
-    url: /categories/android/
-  - title: "Kotlin"
+  - title: "Retrospective 2022"
+    url: /categories/retrospective-2022/
+  - title: "Java"
     url: /categories/kotlin/
-  - title: "Plan"
+  - title: "DB"
     url: /categories/plan/
-  - title: "회고"
+  - title: "Spring"
     url: /categories/회고/
