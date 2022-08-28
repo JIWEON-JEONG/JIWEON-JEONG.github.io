@@ -7,7 +7,7 @@ categories:
 tags:
   - [코루틴]
 
-permalink: /kotlin/Cancellation-and-timeouts/
+permalink: /kotlin/db/Cancellation-and-timeouts/
 
 toc: true
 toc_sticky: true
