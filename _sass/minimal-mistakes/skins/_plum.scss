@@ -3,9 +3,9 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #eafde3 !default;
+$background-color: #cfe2f3 !default;
 $text-color: rgb(7, 7, 7) !default;
-$primary-color: #6aa84f !default;
+$primary-color: #c4f0b5 !default;
 
 $border-color: mix(#eeeeee, $background-color, 20%) !default;
 $code-background-color:rgba(240, 240, 240, 0.5);
@@ -14,7 +14,7 @@ $code-background-color-dark: rgba(185, 185, 185, 0.25) !default;
 $mark-highlight-color: rgba($primary-color, 0.15) !default;
 $block-quote-background-color: rgba($primary-color, 0.1) !default;
 $form-background-color: rgba(255, 255, 255, 0.527) !default;
-$footer-background-color: #6a5514 !default;
+$footer-background-color: #f2e4bb !default;
 $link-color: $primary-color !default;
 
 $link-color-hover: mix($primary-color, $background-color, 70%) !default;
