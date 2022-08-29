@@ -20,9 +20,11 @@ main:
 categories:
   - title: "Retrospective 2022"
     url: /categories/retrospective-2022/
+  - title: "Short Memo"
+    url: /categories/log/
   - title: "Java"
-    url: /categories/kotlin/
+    url: /categories/java/
   - title: "DB"
-    url: /categories/plan/
+    url: /categories/db/
   - title: "Spring"
-    url: /categories/회고/
+    url: /categories/spring/

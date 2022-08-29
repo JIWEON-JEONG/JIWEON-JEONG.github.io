@@ -1,9 +1,9 @@
 ---
-title: "Plan"
+title: "Log"
 layout: category
-permalink: /categories/plan/
+permalink: /categories/log/
 author_profile: true
-taxonomy: Plan
+taxonomy: Log
 sidebar:
   nav: "categories"
 ---

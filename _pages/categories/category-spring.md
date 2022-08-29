@@ -1,9 +1,9 @@
 ---
-title: "Kotlin"
+title: "Spring"
 layout: category
-permalink: /categories/kotlin/
+permalink: /categories/spring/
 author_profile: true
-taxonomy: Kotlin
+taxonomy: Spring
 sidebar:
   nav: "categories"
 ---

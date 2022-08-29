@@ -1,9 +1,9 @@
 ---
-title: "회고"
+title: "Java"
 layout: category
-permalink: /categories/회고/
+permalink: /categories/java/
 author_profile: true
-taxonomy: 회고
+taxonomy: Java
 sidebar:
   nav: "categories"
 ---

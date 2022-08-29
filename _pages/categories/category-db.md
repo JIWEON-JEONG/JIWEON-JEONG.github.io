@@ -1,7 +1,7 @@
 ---
-title: "db"
+title: "DB"
 layout: category
-permalink: /categories/kotlin/db
+permalink: /categories/db
 author_profile: true
 taxonomy: db
 sidebar:
