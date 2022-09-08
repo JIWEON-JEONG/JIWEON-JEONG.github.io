@@ -53,18 +53,18 @@ last_modified_at: 2022-09-02
 ####Flow
 > 사전작업 : client 는 authorization server 에 clientId, clientSecret, redirectionURI 를 등록해야한다.
 
-![](../imgs/oauth1.png)
+![](assets/images/posts_img/imgs/oauth1.png)
 1. resource owner 가 Third-Party 어플리케이션에게 자신의 데이터 접근 권한을 주기 위해 , client 를 통해 해당 링크로 이동한다.
 
-![](../imgs/oauth2.png)
+![](assets/images/posts_img/imgs/oauth2.png)
 
 2. authorization server 가 owner 의 로그인 유무와 해당 접근 권한을 client 에게 부여하겠다 라는 승인 요청을 보냄.
 > 이 때 요청 uri 정보와 authorization server 에서 유지하고 있는 정보들을 확인하고 승인 요청 전송.
 4. owner 가 승인 하면, authorization server 는 owner 에게 응답으로 location 헤더에 redirectionURI 를 넣어 client 로 리다이렉션 시킨다.
 
-![](../imgs/oauth3.png)
+![](assets/images/posts_img/imgs/oauth3.png)
 5. 요청을 받은 client 는 가지고 있는 정보와 code 를 조합하여 authorization server 에게 토큰 요청을 보낸다.
-![](../imgs/oauth4.png)
+![](assets/images/posts_img/imgs/oauth4.png)
 6. 발급 받은 access 토큰을 통하여 resource server 의 자원에 접근 할 수 있다.
 >토큰을 발급 받게 되면 Authorization Code 는 더이상 필요 하지 않으므로 삭제 해준다. 
 
@@ -87,7 +87,7 @@ grant_type=authorization_code&code=SplxlOBeZQQYbYS6WxSbIA&redirect_uri=https%3A%
 ### Implicit Grant (암묵적 승인 방식)
 >자격증명을 안전하게 저장하기 힘든 클라이언트(ex: JavaScript등의 스크립트 언어를 사용한 브라우저)에게 최적화된 방식입니다.
 
-![](../imgs/oauth5.png)
+![](assets/images/posts_img/imgs/oauth5.png)
 
 >암시적 승인 방식에서는 권한 부여 승인 코드 없이 바로 Access Token을 발급. 
 > 
@@ -100,7 +100,7 @@ grant_type=authorization_code&code=SplxlOBeZQQYbYS6WxSbIA&redirect_uri=https%3A%
 #### 단점
 - Access Token이 URL로 전달되기 때문에 비교적 보안에 취약.
 
-![](../imgs/oauth6.png)
+![](assets/images/posts_img/imgs/oauth6.png)
 
 #### 이걸 왜 쓸까? :: 추측
 1. Was 를 사용하지 않는 서비스에서 사용 할 거 같다.
@@ -116,7 +116,7 @@ grant_type=authorization_code&code=SplxlOBeZQQYbYS6WxSbIA&redirect_uri=https%3A%
 > 
 > **자신의 서비스에서 제공하는 어플리케이션일 경우에만 사용되는 인증 방식입니다.**
 
-![](../imgs/oauth7.png)
+![](assets/images/posts_img/imgs/oauth7.png)
 
 >제공하는 API를 통해 username, password을 전달하여 Access Token을 받는 것입니다.
 
@@ -135,7 +135,7 @@ grant_type=password&username=johndoe&password=A3ddj3w
 ###Client Credentials Grant
 >클라이언트의 자격증명만으로 Access Token을 획득하는 방식 (Refresh 토큰 사용 불가.)
 
-![](../imgs/oauth8.png)
+![](assets/images/posts_img/imgs/oauth8.png)
 
 ~~~
 (POST) /token
@@ -150,7 +150,7 @@ grant_type=client_credentials
 ---
 ###전체 flow 와 refresh token
 
-![](../imgs/oauth9.png)
+![](assets/images/posts_img/imgs/oauth9.png)
 
 
 > 안드로이드 나 ios 같은 native app 경우 브라우저와 서버와의 통신보다 탈취 위험이 적으므로, <br>
