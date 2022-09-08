@@ -19,15 +19,15 @@ main:
 # 2022.02.15 sidebar update : simple ver.
 categories:
   - title: "Retrospective 2022"
-    url: /categories/retrospective-2022
+    url: /categories/#retrospective-2022
   - title: "Short Memo"
-    url: /categories/log
+    url: /categories/#log
   - title: "Java"
-    url: /categories/java
+    url: /categories/#java
   - title: "DB"
-    url: /categories/db
+    url: /categories/#db
   - title: "Spring"
-    url: /categories/spring
+    url: /categories/#spring
   - title: "Git"
-    url: /categories/git
+    url: /categories/#git
 
