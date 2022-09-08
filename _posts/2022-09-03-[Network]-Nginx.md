@@ -37,7 +37,7 @@ last_modified_at: 2022-09-03
 ---
 
 ##NGINX 구조
-![](imgs/nginx1.jpg)
+![사진](/imgs/nginx1.jpg)
 
 1. Master Process 
 >config 파일을 읽고 worker process를 생성/관리
