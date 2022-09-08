@@ -53,7 +53,8 @@ last_modified_at: 2022-09-02
 ####Flow
 > 사전작업 : client 는 authorization server 에 clientId, clientSecret, redirectionURI 를 등록해야한다.
 
-![사진](imgs/oauth/oauth1.png)
+![](/imgs/oauth/oauth1.png)
+
 1. resource owner 가 Third-Party 어플리케이션에게 자신의 데이터 접근 권한을 주기 위해 , client 를 통해 해당 링크로 이동한다.
 
 ![사진](imgs/oauth/oauth2.png)
