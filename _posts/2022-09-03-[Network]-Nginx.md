@@ -7,7 +7,7 @@ categories:
 tags:
   - [Network]
 
-permalink: /network/2/
+permalink: /network/2
 
 toc: true
 toc_sticky: true
