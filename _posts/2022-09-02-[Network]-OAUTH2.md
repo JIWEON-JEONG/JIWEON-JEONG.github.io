@@ -15,7 +15,7 @@ toc_sticky: true
 date: 2022-09-02
 last_modified_at: 2022-09-02
 ---
-#OAuth2.0
+# OAuth2.0
 >OAuth 2.0 is the industry-standard protocol for authorization.
 >(OAuth 2.0 은 authorization 의 업계 표준 프로토콜이다.) 
 >> Http protocol 인증헤더의 type 중 하나로 등록되어있다.
@@ -26,7 +26,7 @@ last_modified_at: 2022-09-02
 >다른 사람이 만든 소프트웨어 응용 프로그램
 > 
 
-##Role
+## Role
 
 | 이름              | 역할                                                  |
 |-----------------|-----------------------------------------------------|
@@ -42,10 +42,10 @@ last_modified_at: 2022-09-02
 >
 >간편 로그인 기능에서 사용되는 방식으로 client가 resource owner를 대신하여 특정 자원에 접근을 요청할 때 사용되는 방식.
 
-####Authorization Code
+#### Authorization Code
 >client 가 resource server에서 발급한 accessToken 과 교환하기 위한 임시 코드.
 > 
-####장점
+#### 장점
  - 보안성
  > Authorization Code 를 탈취 당해도, secret 값은 오직 client 와 resource server 만이 알기에 보안성이 좋다.
  >
@@ -69,11 +69,11 @@ last_modified_at: 2022-09-02
 6. 발급 받은 access 토큰을 통하여 resource server 의 자원에 접근 할 수 있다.
 >토큰을 발급 받게 되면 Authorization Code 는 더이상 필요 하지 않으므로 삭제 해준다. 
 
-####토큰 획득
+#### 토큰 획득
 ~~~
 (GET)/authorize?response_type=code&client_id=s6BhdRkqt3&state=xyz&redirect_uri=https%3A%2F%2Fclient%2Eexample%2Ecom%2Fc
 ~~~
-####획득한 토큰으로 요청
+#### 획득한 토큰으로 요청
 ~~~
 (POST) /token
 
