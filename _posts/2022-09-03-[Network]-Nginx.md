@@ -35,7 +35,8 @@ last_modified_at: 2022-09-03
 ---
 ## NGINX 의 목적
 >The goal behind NGINX was to create the fastest web server around.<br>
-> (NGINX 의 목표는 가장 빠른 웹 서버를 만드는 것.)
+> (NGINX 의 목표는 가장 빠른 웹 서버를 만드는 것)
+
 ---
 
 ## NGINX 구조
@@ -51,7 +52,8 @@ last_modified_at: 2022-09-03
 
 ## NGINX config 파일 설정 예시
 >$host 또는 $request_uri 들은 클라이언트에서 받은 요청들을 참고하여 변수들 채워진다.
->
+
+
 ~~~
 server{
     listen 80:
