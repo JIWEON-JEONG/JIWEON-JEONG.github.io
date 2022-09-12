@@ -1,5 +1,5 @@
 ---
-title: "[AWS] 서버리스 개념과 lambda 찍먹 실습"
+title: "[AWS] 서버리스 개념과 lambda 아키텍처"
 excerpt: "서버리스란 .."
 
 categories:
@@ -32,9 +32,11 @@ last_modified_at: 2022-09-12
 EX) AWS Lambda, MS Azure Fuction.
 
 2. Baas (Backend as a Service)
+
 > 백엔드 개발에 필요한 여러 기능을 API 로 제공하는 서비스.
 
 > 클라우드 제공업체가 인증 서비스와 추가 암호화, 클라우드 액세스 가능한 데이터베이스, 상세한 데이터 사용량 모니터링 등을 ‘완성해’ 제공.
+
 EX) Firebase
 
 ### 서버리스 아키텍처를 왜 사용 할까?
@@ -75,5 +77,5 @@ EX) Firebase
 5. 보안
 > 데이터를 사내에서 직접 관리하는것이 아니기 때문에 민감한 데이터에 관해서는 우려가 생긴다.
 
-## lambda 서비스 
+## lambda 아키텍처
 ![](/imgs/infra/lambda.png)
