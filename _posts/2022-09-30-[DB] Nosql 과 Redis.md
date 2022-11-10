@@ -114,10 +114,15 @@ Redis 의 경우 자료구조가 Atomic 하기 때문에 RaceCondition 피할 �
 ### Redis Collections
 - Strings (Key-Value) : 가장 많이씀.
 > 보통 prefix 붙임. key 값에 token:1234567
+>
+> 단순 증감 연산 효율 (연산 함수 제공)
 - List (LinkedList 와 유사)
+> Blocking 기능을 통해 이벤트 queue 구현 가능.
 - Set : 데이터가 있는지 없는지만 체크하는 용도 (특정 유저 follow 목록)
 - Sorted Set : 가장 많이 씀. - 랭킹에 따라 순서가 바뀌길 바란다면
 - Hash 
+- Streams
+> 로그를 저장하기 가장 적절한 자료구조.
 
 :: 하나의 컬렉션에 너무 많은 아이템을 담으면 좋지 않음.
 > 10000개 이하 몇천개 수준으로 유지하는게 좋다.
@@ -132,7 +137,16 @@ Redis 의 경우 자료구조가 Atomic 하기 때문에 RaceCondition 피할 �
 > 1. Redis 는 기본적으로 Single Thread
 > 2. Redis 기본 자료구조는 Atomic 하기 때문에, 서로 다른 트랜잭션의 Read/Write 동기화
 2. O(N) 관련 명령어는 주의하자.
+ - Redis 는 Single Thread 기반이기 때문에 keys, flushall, flushdb, getall 등 조심.
 
 ### Replication - Fork
 - 메모리 데이터 이기 때문에 유실될 때를 어떻게 대비 할 것인가? 에 대한 해결책.
 - Fork 할때 메모리 여유 있게 사용. 
+
+### 꿀팁
+- keys * -> scan 으로 대체
+- hgetall -> hscan
+- del -> unlink
+
+MAXMEMORY-POLICY = ALLKEYS-LRU (메모리가 가득 찼을 때 가장 바람직한 POLICY)
+redis 캐시로 이용 할때 , ExpireTime 설정 권장.
