@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title><![CDATA[When Pressure Turns into Inspiration]]></title>
+    <link>http://localhost:5175</link>
+    <description><![CDATA[When Pressure Turns into Inspiration]]></description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Sep 2024 04:47:00 GMT</lastBuildDate>
+    <atom:link href="http://localhost:5175/rss.xml" rel="self" type="application/rss+xml"/>
+    <generator>Q00 Blog RSS Generator</generator>
+    <webMaster>jqyu.lee@gmail.com (JQ)</webMaster>
+    <managingEditor>jqyu.lee@gmail.com (JQ)</managingEditor>
+    <copyright>Copyright 2024 JQ</copyright>
+    <ttl>60</ttl>
+
+    <!-- Posts will be loaded from HashNode API during build -->
+    <item>
+      <title><![CDATA[RSS Feed Test]]></title>
+      <link>http://localhost:5175/posts/rss-test</link>
+      <guid isPermaLink="true">http://localhost:5175/posts/rss-test</guid>
+      <description><![CDATA[RSS feed is now working! Posts will be loaded from HashNode API.]]></description>
+      <pubDate>Wed, 18 Sep 2024 04:47:00 GMT</pubDate>
+      <author>JQ</author>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+{
+  "name": "@q00-blog/shared",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shared types and utilities for Q00 Blog",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "date-fns": "^3.3.1"
+  }
+}

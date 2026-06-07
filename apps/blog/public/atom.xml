@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[When Pressure Turns into Inspiration]]></title>
+  <link href="http://localhost:5175"/>
+  <link href="http://localhost:5175/atom.xml" rel="self"/>
+  <id>http://localhost:5175</id>
+  <updated>2024-09-18T04:47:00Z</updated>
+  <subtitle><![CDATA[When Pressure Turns into Inspiration]]></subtitle>
+  <generator>Q00 Blog Atom Generator</generator>
+  <author><name>JQ</name></author>
+
+  <!-- Posts will be loaded from HashNode API during build -->
+  <entry>
+    <title type="html"><![CDATA[RSS Feed Test]]></title>
+    <link href="http://localhost:5175/posts/rss-test"/>
+    <id>http://localhost:5175/posts/rss-test</id>
+    <published>2024-09-18T04:47:00Z</published>
+    <updated>2024-09-18T04:47:00Z</updated>
+    <author><name>JQ</name></author>
+    <content type="html"><![CDATA[Atom feed is now working! Posts will be loaded from HashNode API.]]></content>
+  </entry>
+</feed>

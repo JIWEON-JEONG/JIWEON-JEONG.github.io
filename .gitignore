@@ -1,1 +1,36 @@
-/_posts/blog-format.md
+node_modules
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Blog content (sourced from Q00/blog-backup at build time)
+apps/blog/content/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE/Development tools
+.bmad-core/
+.claude/
+**/.tanstack/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*

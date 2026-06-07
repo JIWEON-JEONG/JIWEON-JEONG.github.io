@@ -1,0 +1,56 @@
+name: Deploy Blog
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  actions: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Build shared packages
+        run: pnpm build:packages
+
+      - name: Build blog for production
+        run: pnpm build:blog
+        env:
+          NODE_ENV: production
+          VITE_SITE_URL: https://jiweon-jeong.github.io
+          VITE_SITE_TITLE: "정지원의 기록"
+          VITE_SITE_DESCRIPTION: "Software Engineer. Spring, AWS, 인프라를 공부하며 성장을 기록하는 공간입니다."
+          VITE_AUTHOR_NAME: "Jiweon Jeong"
+          VITE_AUTHOR_EMAIL: "dlektl6@naver.com"
+          VITE_POSTS_PER_PAGE: 10
+          VITE_FEATURED_POSTS_COUNT: 3
+          VITE_GITHUB_CLIENT_ID: ""
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./apps/blog/dist

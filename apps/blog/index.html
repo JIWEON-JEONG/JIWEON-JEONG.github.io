@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>정지원의 기록</title>
+    <meta name="description" content="Software Engineer. Spring, AWS, 인프라를 공부하며 성장을 기록하는 공간입니다." />
+
+    <!-- SEO Meta Tags -->
+    <meta property="og:title" content="정지원의 기록" />
+    <meta property="og:description" content="Software Engineer. Spring, AWS, 인프라를 공부하며 성장을 기록하는 공간입니다." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jiweon-jeong.github.io" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="정지원의 기록" />
+    <meta name="twitter:description" content="Software Engineer. Spring, AWS, 인프라를 공부하며 성장을 기록하는 공간입니다." />
+
+    <!-- Typography: editorial serif display + monospace furniture + Korean serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+KR:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="정지원의 기록 RSS" href="/feed.xml" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- GitHub Pages SPA redirect handler -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
