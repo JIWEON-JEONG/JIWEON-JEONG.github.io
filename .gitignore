@@ -10,8 +10,6 @@ dist/
 build/
 *.tsbuildinfo
 
-# Blog content (sourced from Q00/blog-backup at build time)
-apps/blog/content/
 
 # IDE
 .vscode/
