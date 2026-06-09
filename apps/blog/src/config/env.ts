@@ -2,7 +2,7 @@
 export const ENV = {
   SITE_URL: import.meta.env.VITE_SITE_URL || 'http://localhost:5173',
   SITE_TITLE: import.meta.env.VITE_SITE_TITLE || '정지원의 기록',
-  SITE_DESCRIPTION: import.meta.env.VITE_SITE_DESCRIPTION || 'Software Engineer. Spring, AWS, 인프라를 공부하며 성장을 기록하는 공간입니다.',
+  SITE_DESCRIPTION: import.meta.env.VITE_SITE_DESCRIPTION || 'Software Engineer. 생각을 기록하는 공간입니다.',
   AUTHOR_NAME: import.meta.env.VITE_AUTHOR_NAME || 'Jiweon Jeong',
   AUTHOR_EMAIL: import.meta.env.VITE_AUTHOR_EMAIL || 'dlektl6@naver.com',
   GITHUB_REPO: import.meta.env.VITE_GITHUB_REPO || 'JIWEON-JEONG/JIWEON-JEONG.github.io',
