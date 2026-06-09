@@ -40,7 +40,7 @@ export function generateRSSFeed(posts: BlogPost[]): string {
     <language>en-us</language>
     <lastBuildDate>${buildDate}</lastBuildDate>
     <atom:link href="${CONFIG.SITE_URL}/rss.xml" rel="self" type="application/rss+xml"/>
-    <generator>Q00 Blog RSS Generator</generator>
+    <generator>Jiweon Blog RSS Generator</generator>
     <webMaster>${CONFIG.AUTHOR_EMAIL} (${CONFIG.AUTHOR_NAME})</webMaster>
     <managingEditor>${CONFIG.AUTHOR_EMAIL} (${CONFIG.AUTHOR_NAME})</managingEditor>
     <copyright>Copyright ${new Date().getFullYear()} ${CONFIG.AUTHOR_NAME}</copyright>
@@ -88,7 +88,7 @@ export function generateAtomFeed(posts: BlogPost[]): string {
   <id>${CONFIG.SITE_URL}</id>
   <updated>${buildDate}</updated>
   <subtitle><![CDATA[${CONFIG.SITE_DESCRIPTION}]]></subtitle>
-  <generator>Q00 Blog Atom Generator</generator>
+  <generator>Jiweon Blog Atom Generator</generator>
   ${CONFIG.AUTHOR_NAME ? `<author><name>${CONFIG.AUTHOR_NAME}</name></author>` : ''}${atomEntries}
 </feed>`;
 }

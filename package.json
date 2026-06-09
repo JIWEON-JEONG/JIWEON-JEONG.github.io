@@ -1,8 +1,8 @@
 {
-  "name": "q00-blog",
+  "name": "jiweon-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "A modern blog built with React and TanStack Router",
+  "description": "정지원의 기록 - Personal blog built with React and TanStack Router",
   "scripts": {
     "dev": "pnpm --filter blog dev",
     "build": "pnpm build:packages && pnpm build:blog",

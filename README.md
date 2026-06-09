@@ -1,46 +1,6 @@
-# WPTI Blog
+# 정지원의 기록
 
-A modern React blog with Hashnode integration, built for GitHub Pages.
-
-## Features
-
-- 🚀 **Modern Stack**: React 18, TypeScript, TanStack Router
-- 📝 **Hashnode Integration**: Display your Hashnode content with custom design
-- 🎨 **Clean UI**: Responsive, dark/light mode, mobile-first
-- ⚡ **Fast**: Static generation, optimized for performance
-- 🔐 **Secure**: Read-only deployment, no sensitive data exposed
-
-## Quick Start
-
-```bash
-git clone https://github.com/Q00/Q00.github.io.git
-cd Q00.github.io
-pnpm install
-cp .env.local.example .env.local
-pnpm dev
-```
-
-Visit `http://localhost:5173`
-
-## Environment Setup
-
-```bash
-# .env.local for development
-VITE_HASHNODE_ENABLED=true
-VITE_HASHNODE_PUBLICATION_ID=your_publication_id
-VITE_HASHNODE_PUBLICATION_HOST=yourblog.hashnode.dev
-```
-
-## Deployment
-
-Deploy to GitHub Pages automatically via GitHub Actions.
-
-**Required Repository Secrets:**
-
-- `HASHNODE_PUBLICATION_ID`
-- `HASHNODE_PUBLICATION_HOST`
-
-Push to `master` or `main` branch to trigger deployment.
+A personal blog built with React + Vite + TailwindCSS, deployed on GitHub Pages.
 
 ## Tech Stack
 
@@ -48,8 +8,40 @@ Push to `master` or `main` branch to trigger deployment.
 - TanStack Router
 - Tailwind CSS
 - Vite
-- GitHub Pages
-- GitHub Actions
+- GitHub Actions + GitHub Pages
+
+## Quick Start
+
+```bash
+git clone https://github.com/JIWEON-JEONG/JIWEON-JEONG.github.io.git
+cd JIWEON-JEONG.github.io
+pnpm install
+pnpm dev
+```
+
+Visit `http://localhost:5173`
+
+## Adding a New Post
+
+`apps/blog/content/` 디렉토리에 마크다운 파일을 추가하면 됩니다.
+
+```markdown
+---
+title: "포스트 제목"
+datePublished: 2026-01-01
+slug: post-slug
+tags: Spring, Backend
+seoDescription: "포스트 요약"
+---
+
+본문 내용...
+```
+
+## Deployment
+
+`main` 브랜치에 push하면 GitHub Actions가 자동으로 빌드 후 `gh-pages` 브랜치에 배포합니다.
+
+GitHub 레포 Settings → Pages → Source를 `gh-pages` 브랜치로 설정해야 합니다.
 
 ## License
 

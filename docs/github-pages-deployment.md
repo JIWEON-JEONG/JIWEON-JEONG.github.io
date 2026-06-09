@@ -1,6 +1,6 @@
 # GitHub Pages Deployment Guide
 
-Complete guide for deploying Q00 Blog to GitHub Pages with automatic CI/CD.
+Complete guide for deploying 정지원의 기록 to GitHub Pages with automatic CI/CD.
 
 ## Overview
 
@@ -20,7 +20,7 @@ Perfect for displaying your Hashnode content with a custom frontend.
 
 #### Step 1: Repository Setup
 
-1. Fork or clone the Q00 Blog repository
+1. Fork or clone the 정지원의 기록 repository
 2. Enable GitHub Pages in repository settings:
    - Go to **Settings** → **Pages**
    - Source: **GitHub Actions**
