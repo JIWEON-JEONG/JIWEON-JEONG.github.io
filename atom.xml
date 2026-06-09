@@ -4,8 +4,133 @@
   <link href="https://jiweon-jeong.github.io"/>
   <link href="https://jiweon-jeong.github.io/atom.xml" rel="self"/>
   <id>https://jiweon-jeong.github.io</id>
-  <updated>2026-06-09T01:48:45.695Z</updated>
+  <updated>2026-06-09T01:51:30.811Z</updated>
   <subtitle><![CDATA[Software Engineer. 생각을 기록하는 공간입니다.]]></subtitle>
   <generator>Jiweon Blog Atom Generator</generator>
   <author><name>Jiweon Jeong</name></author>
+    <entry>
+      <title type="html"><![CDATA[[Retrospective-2022] 프리코스 1주차&2주차 회고]]></title>
+      <link href="https://jiweon-jeong.github.io/posts/precourse-retrospective"/>
+      <id>https://jiweon-jeong.github.io/posts/precourse-retrospective</id>
+      <published>2022-11-10T00:00:00.000Z</published>
+      <updated>2022-11-10T00:00:00.000Z</updated>
+      <author><name>Jiweon Jeong</name></author>
+      <content type="html"><![CDATA[우아한테크코스 프리코스를 진행하며......]]></content>
+      <category term="Retrospective"/>
+      <category term="Retrospective"/>
+    </entry>
+    <entry>
+      <title type="html"><![CDATA[[DB] NoSql 과 Redis]]></title>
+      <link href="https://jiweon-jeong.github.io/posts/nosql-redis"/>
+      <id>https://jiweon-jeong.github.io/posts/nosql-redis</id>
+      <published>2022-09-30T00:00:00.000Z</published>
+      <updated>2022-09-30T00:00:00.000Z</updated>
+      <author><name>Jiweon Jeong</name></author>
+      <content type="html"><![CDATA[Spring 프로젝트 Redis 도입 전 사전 공부...]]></content>
+      <category term="DB"/>
+      <category term="DB"/>
+    </entry>
+    <entry>
+      <title type="html"><![CDATA[[AWS] 서버리스 개념과 lambda 아키텍처]]></title>
+      <link href="https://jiweon-jeong.github.io/posts/aws-serverless-lambda"/>
+      <id>https://jiweon-jeong.github.io/posts/aws-serverless-lambda</id>
+      <published>2022-09-12T00:00:00.000Z</published>
+      <updated>2022-09-12T00:00:00.000Z</updated>
+      <author><name>Jiweon Jeong</name></author>
+      <content type="html"><![CDATA[서버리스란 .....]]></content>
+      <category term="Infra"/>
+      <category term="Infra"/>
+      <category term="AWS"/>
+    </entry>
+    <entry>
+      <title type="html"><![CDATA[[AWS] VPC 생성하기 전 알아야 할 내용들]]></title>
+      <link href="https://jiweon-jeong.github.io/posts/aws-vpc"/>
+      <id>https://jiweon-jeong.github.io/posts/aws-vpc</id>
+      <published>2022-09-11T00:00:00.000Z</published>
+      <updated>2022-09-11T00:00:00.000Z</updated>
+      <author><name>Jiweon Jeong</name></author>
+      <content type="html"><![CDATA[VPC 에 대하여...]]></content>
+      <category term="Infra"/>
+      <category term="Infra"/>
+      <category term="AWS"/>
+    </entry>
+    <entry>
+      <title type="html"><![CDATA[[Retrospective-2022] 개발자에게 정말 필요한 역량은 무엇일까? (Feat Siner)]]></title>
+      <link href="https://jiweon-jeong.github.io/posts/retrospective-siner"/>
+      <id>https://jiweon-jeong.github.io/posts/retrospective-siner</id>
+      <published>2022-09-09T00:00:00.000Z</published>
+      <updated>2022-09-09T00:00:00.000Z</updated>
+      <author><name>Jiweon Jeong</name></author>
+      <content type="html"><![CDATA[Siner 님의 조언...]]></content>
+      <category term="Retrospective"/>
+      <category term="Retrospective"/>
+      <category term="Log"/>
+    </entry>
+    <entry>
+      <title type="html"><![CDATA[[Git] Git 이미지 Issue 에 올리지 마세요.]]></title>
+      <link href="https://jiweon-jeong.github.io/posts/git-image-issue"/>
+      <id>https://jiweon-jeong.github.io/posts/git-image-issue</id>
+      <published>2022-09-08T00:00:00.000Z</published>
+      <updated>2022-09-08T00:00:00.000Z</updated>
+      <author><name>Jiweon Jeong</name></author>
+      <content type="html"><![CDATA[Git 이미지 안올라간다면......]]></content>
+      <category term="Git"/>
+      <category term="Git"/>
+    </entry>
+    <entry>
+      <title type="html"><![CDATA[[Spring] 테스트 전용 환경 구축]]></title>
+      <link href="https://jiweon-jeong.github.io/posts/spring-test-database"/>
+      <id>https://jiweon-jeong.github.io/posts/spring-test-database</id>
+      <published>2022-09-08T00:00:00.000Z</published>
+      <updated>2022-09-08T00:00:00.000Z</updated>
+      <author><name>Jiweon Jeong</name></author>
+      <content type="html"><![CDATA[\...]]></content>
+      <category term="Spring"/>
+      <category term="Spring"/>
+    </entry>
+    <entry>
+      <title type="html"><![CDATA[[Git] Blog 를 운영하는 이유와 플랫폼을 옮긴 이유]]></title>
+      <link href="https://jiweon-jeong.github.io/posts/blog-migration"/>
+      <id>https://jiweon-jeong.github.io/posts/blog-migration</id>
+      <published>2022-09-07T00:00:00.000Z</published>
+      <updated>2022-09-07T00:00:00.000Z</updated>
+      <author><name>Jiweon Jeong</name></author>
+      <content type="html"><![CDATA[Blog 플랫폼을 옮긴 이유...]]></content>
+      <category term="Git"/>
+      <category term="Git"/>
+    </entry>
+    <entry>
+      <title type="html"><![CDATA[[Network] NGINX 와 설정파일]]></title>
+      <link href="https://jiweon-jeong.github.io/posts/nginx"/>
+      <id>https://jiweon-jeong.github.io/posts/nginx</id>
+      <published>2022-09-03T00:00:00.000Z</published>
+      <updated>2022-09-03T00:00:00.000Z</updated>
+      <author><name>Jiweon Jeong</name></author>
+      <content type="html"><![CDATA[NGINX 와 설정파일...]]></content>
+      <category term="Network"/>
+      <category term="Network"/>
+    </entry>
+    <entry>
+      <title type="html"><![CDATA[[Network] OAuth2.0]]></title>
+      <link href="https://jiweon-jeong.github.io/posts/oauth2"/>
+      <id>https://jiweon-jeong.github.io/posts/oauth2</id>
+      <published>2022-09-02T00:00:00.000Z</published>
+      <updated>2022-09-02T00:00:00.000Z</updated>
+      <author><name>Jiweon Jeong</name></author>
+      <content type="html"><![CDATA[OAUTH2.0...]]></content>
+      <category term="Network"/>
+      <category term="Network"/>
+    </entry>
+    <entry>
+      <title type="html"><![CDATA[[Retrospective-2022] 2022년 3/4 분기]]></title>
+      <link href="https://jiweon-jeong.github.io/posts/retrospective-2022-q3"/>
+      <id>https://jiweon-jeong.github.io/posts/retrospective-2022-q3</id>
+      <published>2022-08-28T00:00:00.000Z</published>
+      <updated>2022-08-28T00:00:00.000Z</updated>
+      <author><name>Jiweon Jeong</name></author>
+      <content type="html"><![CDATA[2022년 3/4 분기 회고...]]></content>
+      <category term="Retrospective"/>
+      <category term="Retrospective"/>
+      <category term="Log"/>
+    </entry>
 </feed>
