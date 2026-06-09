@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[정지원의 기록]]></title>
+  <link href="https://jiweon-jeong.github.io"/>
+  <link href="https://jiweon-jeong.github.io/atom.xml" rel="self"/>
+  <id>https://jiweon-jeong.github.io</id>
+  <updated>2026-06-09T01:48:45.695Z</updated>
+  <subtitle><![CDATA[Software Engineer. 생각을 기록하는 공간입니다.]]></subtitle>
+  <generator>Jiweon Blog Atom Generator</generator>
+  <author><name>Jiweon Jeong</name></author>
+</feed>
